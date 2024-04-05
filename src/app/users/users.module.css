@@ -12,10 +12,24 @@
   justify-content: space-between;
   padding: 1rem 0;
 }
+.userContainer .searchBar {
+  border: 1px solid #3c3e41;
+  border-radius: 4px;
+}
 .userContainer .searchBar .searchInput {
-  padding: 1rem;
+  padding: 0.7rem;
   background-color: #ffffff;
   border-radius: 5px;
+  #id::placeholder {
+    color: black;
+    font-size: 2em;
+  }
+}
+.userContainer .searchBar .searchInput:focus {
+  padding: 0.7rem;
+  background-color: #ffffff;
+  border-radius: none;
+  outline: none;
   #id::placeholder {
     color: black;
     font-size: 2em;
@@ -49,6 +63,9 @@
   border-radius: 18px;
   display: flex;
   justify-content: space-around;
+}
+.cardLeft {
+  width: 180px;
 }
 .cardLeft .profileImage img {
   width: 100px;

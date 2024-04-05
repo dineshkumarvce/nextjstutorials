@@ -1,4 +1,4 @@
-import styles from './user.module.css';
+import styles from './users.module.css';
 
 const page = () => {
     const data = [
