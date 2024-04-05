@@ -1,0 +1,90 @@
+.userContainer {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+}
+.userContainer .pageTitle {
+  font-size: 2em;
+  font-weight: 700;
+}
+.userContainer .headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.userContainer .searchBar .searchInput {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  #id::placeholder {
+    color: black;
+    font-size: 2em;
+  }
+}
+.userContainer .headerContainer menu ul {
+  display: inline-flex;
+  list-style: none;
+  font-size: 1em;
+  font-weight: 400;
+  column-gap: 2rem;
+}
+.userContainer .headerContainer menu ul li {
+  padding: 5px 10px 8px 10px;
+  border-radius: 5px;
+}
+.userContainer .headerContainer menu ul li:hover {
+  background: #83a2ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  background-color: #eef5ff;
+  width: 18rem;
+  height: 10rem;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+.cardLeft .profileImage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 1em;
+}
+.cardRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.cardRight .userName {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.cardRight .loaction {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.cardRight .intrestList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 5px;
+}
+.cardRight .intrest {
+  color: #387adf;
+  padding: 1px 8px 3px 8px;
+  font-weight: 600;
+  font-size: 0.8em;
+  background-color: #ffffff;
+  border: 1px solid #bebff4;
+  border-radius: 20px;
+}
